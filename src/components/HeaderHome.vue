@@ -46,10 +46,6 @@ header {
     padding-top: 40px;
     align-items: center;
     justify-content: space-between;
-    font-family:'Barlow Condensed', sans-serif;
-
-
-
 }
 
 .linha {

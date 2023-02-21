@@ -7,8 +7,8 @@
         -[x]Estilizar Componente
         -[ ]Criar Lógica do componente
     -[x] Criar Componente HOME TEXT
-        -[ ]Estruturar Componente
-        -[ ]Estilizar Componente
+        -[x]Estruturar Componente
+        -[x]Estilizar Componente
     -[x] Criar Botão EXPLORE
         -[ ]Estilizar Botão
         -[ ]Criar Lógica do Botão
