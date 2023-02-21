@@ -1,24 +1,14 @@
-# space
+### Planejamento de Projeto
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+-[ ] Criar view HOME
+    -[ ] Criar Background na Página
+    -[ ] Criar Componente HEADER HOME
+        -[ ]Estruturar Componente
+        -[ ]Estilizar Componente
+        -[ ]Criar Lógica do componente
+    -[ ] Criar Componente HOME TEXT
+        -[ ]Estruturar Componente
+        -[ ]Estilizar Componente
+    -[ ] Criar Botão EXPLORE
+        -[ ]Estilizar Botão
+        -[ ]Criar Lógica do Botão
