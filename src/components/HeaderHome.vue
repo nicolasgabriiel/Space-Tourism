@@ -46,6 +46,10 @@ header {
     padding-top: 40px;
     align-items: center;
     justify-content: space-between;
+    font-family:'Barlow Condensed', sans-serif;
+
+
+
 }
 
 .linha {
@@ -80,10 +84,11 @@ strong{
 }
 .descricao-header{
     color: white;
-    font-size: 16px;
+    font-size: 19px;
     margin-right: 70px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-family:'Barlow Condensed', sans-serif;
     
 }
 </style>

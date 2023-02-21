@@ -12,4 +12,4 @@
     -[ ] Criar Botão EXPLORE
         -[ ]Estilizar Botão
         -[ ]Criar Lógica do Botão
--[ ] Importar Fonte do projeto        
+-[x] Importar Fonte do projeto        
