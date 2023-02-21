@@ -1,6 +1,6 @@
 ### Planejamento de Projeto
 
--[ ] Criar view HOME
+-[x] Criar view HOME
     -[ ] Criar Background na Página
     -[ ] Criar Componente HEADER HOME
         -[ ]Estruturar Componente
