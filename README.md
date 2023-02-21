@@ -2,7 +2,7 @@
 
 -[x] Criar view HOME
     -[x] Criar Background na Página
-    -[ ] Criar Componente HEADER HOME
+    -[x] Criar Componente HEADER HOME
         -[ ]Estruturar Componente
         -[ ]Estilizar Componente
         -[ ]Criar Lógica do componente

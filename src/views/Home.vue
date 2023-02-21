@@ -1,15 +1,19 @@
 <template>
   <section class="background">
-    <h1>HOME</h1> 
+    <HeaderHome/>
   </section>
   
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import HeaderHome from '@/components/HeaderHome.vue';
 
 export default defineComponent({
   name: 'HomeView',
+  components:{
+    HeaderHome
+  }
 });
 </script>
 
