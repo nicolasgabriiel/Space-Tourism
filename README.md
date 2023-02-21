@@ -6,7 +6,7 @@
         -[x]Estruturar Componente
         -[x]Estilizar Componente
         -[ ]Criar Lógica do componente
-    -[ ] Criar Componente HOME TEXT
+    -[x] Criar Componente HOME TEXT
         -[ ]Estruturar Componente
         -[ ]Estilizar Componente
     -[x] Criar Botão EXPLORE
