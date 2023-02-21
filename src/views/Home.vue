@@ -1,6 +1,12 @@
 <template>
   <section class="background">
     <HeaderHome/>
+    <div>
+      <TextHome/>
+      <div>
+        <button>Explore</button>
+      </div>
+    </div>
   </section>
   
 </template>
@@ -8,12 +14,14 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import HeaderHome from '@/components/HeaderHome.vue';
+import TextHome from '@/components/TextHome.vue';
 
 export default defineComponent({
   name: 'HomeView',
   components:{
-    HeaderHome
-  }
+    HeaderHome,
+    TextHome
+}
 });
 </script>
 

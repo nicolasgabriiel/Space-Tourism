@@ -9,7 +9,7 @@
     -[ ] Criar Componente HOME TEXT
         -[ ]Estruturar Componente
         -[ ]Estilizar Componente
-    -[ ] Criar Botão EXPLORE
+    -[x] Criar Botão EXPLORE
         -[ ]Estilizar Botão
         -[ ]Criar Lógica do Botão
 -[x] Importar Fonte do projeto        
