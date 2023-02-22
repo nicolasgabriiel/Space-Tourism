@@ -12,4 +12,5 @@
     -[x] Criar Botão EXPLORE
         -[ ]Estilizar Botão
         -[ ]Criar Lógica do Botão
--[x] Importar Fonte do projeto        
+-[x] Importar Fonte do projeto  
+-[x] Criação da segunda Página View      
