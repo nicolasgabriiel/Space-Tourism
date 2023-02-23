@@ -4,23 +4,23 @@
         <div class="linha"></div>
         <nav class="nav-header">
         
-            <button class="botoes-header">
+            <button class="botoes-header" :class="{active: Home}" @click="mudartela('home')">
                 <p class="descricao-header">
                     <strong>01</strong>Home
                 </p>
             </button>
-            <button class="botoes-header">
-                <p class="descricao-header">
+            <button class="botoes-header" :class="{active: Destination}" @click="mudartela('destination')" >
+                <p class="descricao-header" >
                     <strong>02</strong>Destination
                 </p>
             </button>
-            <button class="botoes-header">
-                <p class="descricao-header">
+            <button class="botoes-header" :class="{active: Crew} " @click="mudartela('crew')">
+                <p class="descricao-header" >
                     <strong>03</strong>Crew
                 </p>
             </button>
-            <button class="botoes-header">
-                <p class="descricao-header">
+            <button class="botoes-header" :class="{active: Technology}" @click="mudartela('technology')">
+                <p class="descricao-header" >
                     <strong>03</strong>Technology
                 </p>
             </button>
@@ -33,6 +33,47 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
     name: 'HeaderHome',
+    data(){
+        return{
+            Home: true,
+            Destination: false,
+            Crew: false,
+            Technology: false
+        }
+    },
+    methods:{
+        mudartela(evento:string){
+          if(evento === "home"){
+            
+            this.Destination = false;
+            this.Crew = false;
+            this.Technology = false;
+            this.Home = true;
+
+          }else if(evento === "destination"){
+            
+            this.Crew = false;
+            this.Technology = false;
+            this.Home = false;
+            this.Destination = true;
+
+          }else if(evento === 'crew'){
+           
+            this.Technology = false;
+            this.Home = false;
+            this.Destination = false;
+            this.Crew = true;
+
+          }else{
+            
+            this.Home = false;
+            this.Destination = false;
+            this.Crew = false;
+            this.Technology = true;
+
+          }
+        }
+    }
 
 })
 </script>
@@ -72,7 +113,9 @@ header {
 .botoes-header{
     background: none;
     border: none;
-    
+    margin-right: 70px;
+    padding-bottom: 68px;
+    cursor: pointer;
 }
 strong{
     font-weight: bold;
@@ -81,10 +124,12 @@ strong{
 .descricao-header{
     color: white;
     font-size: 19px;
-    margin-right: 70px;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-family:'Barlow Condensed', sans-serif;
+}
+.active{
+    border-bottom: 4px solid white;
     
 }
 </style>
