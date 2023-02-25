@@ -6,6 +6,8 @@
         -[x]Estruturar Componente
         -[x]Estilizar Componente
         -[ ]Criar Lógica do componente
+        -[ ]Criar Lógica de estilos
+        -[ ]Resolver problema de posicionamento
     -[x] Criar Componente HOME TEXT
         -[x]Estruturar Componente
         -[x]Estilizar Componente
