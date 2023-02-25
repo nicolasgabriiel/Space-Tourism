@@ -1,5 +1,8 @@
 <template>
-    <HeaderHome/>
+    <section class="background">
+        <HeaderHome/>
+    </section>
+  
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue';
@@ -13,3 +16,12 @@ export default defineComponent({
 
 })
 </script>
+
+<style scoped>
+.background{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+}
+</style>
