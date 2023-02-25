@@ -15,4 +15,5 @@
         -[ ]Estilizar Botão
         -[ ]Criar Lógica do Botão
 -[x] Importar Fonte do projeto  
--[x] Criação da segunda Página View      
+    -[x] Criação da segunda Página View      
+        -[x] Importar header segunda page
