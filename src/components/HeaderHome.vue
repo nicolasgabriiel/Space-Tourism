@@ -9,11 +9,13 @@
                     <strong>01</strong>Home
                 </p>
             </button>
-            <button class="botoes-header" :class="{active: Destination}" @click="mudartela('destination')" >
-                <p class="descricao-header" >
-                    <strong>02</strong>Destination
-                </p>
-            </button>
+            <router-link to="/destination">
+                <button class="botoes-header" :class="{active: Destination}" @click="mudartela('destination')" >
+                    <p class="descricao-header" >
+                        <strong>02</strong>Destination
+                    </p>
+                </button>
+            </router-link>
             <button class="botoes-header" :class="{active: Crew} " @click="mudartela('crew')">
                 <p class="descricao-header" >
                     <strong>03</strong>Crew
