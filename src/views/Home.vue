@@ -3,7 +3,7 @@
     <HeaderHome/>
     <div class="container">
       <TextHome/>
-      <div>
+      <div class="fundo_botao">
         <button class="explore">Explore</button>
       </div>
     </div>
@@ -47,12 +47,17 @@ export default defineComponent({
   text-transform: uppercase;
   color: black;
   font-family:'Barlow Condensed', sans-serif;
-  margin: 300px 200px 0 0;
-  transition:  0.5s;
+margin: 88px  0 0 88px;
+
+}
+.fundo_botao{
+  width: 450px;
+  height: 450px;
+  border-radius: 225px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 200px 200px 0 0;
 }
 .explore:hover{
-background-color: #fefefe;
-scale: 1.05;
 cursor: pointer;
 }
 </style>
