@@ -118,6 +118,10 @@ header {
     margin-right: 70px;
     padding-bottom: 68px;
     cursor: pointer;
+
+}
+.botoes-header:hover{
+    border-bottom: 4px solid #cccccc;
 }
 strong{
     font-weight: bold;
