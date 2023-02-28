@@ -3,7 +3,7 @@
     <HeaderHome  />
     <div class="container">
       <TextHome/>
-      <div class="fundo_botao">
+      <div class="fundo_botao" >
         <router-link to="/destination">
           <button class="explore" >Explore</button>
           </router-link>
@@ -24,6 +24,11 @@ export default defineComponent({
     HeaderHome,
     TextHome
 },
+data(){
+  return{
+    fundo: false
+  }
+}
 
 });
 </script>
@@ -57,11 +62,16 @@ margin: 88px  0 0 88px;
   width: 450px;
   height: 450px;
   border-radius: 225px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0);
   margin: 200px 200px 0 0;
+  transition: .5s;
 }
-.explore:hover{
-cursor: pointer;
+.fundo_botao:hover{
+background-color: rgba(255, 255, 255, 0.2);
 }
+.fundo_botao:hover .explore{
+  cursor: pointer;
+}
+
 </style>
 
