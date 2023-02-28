@@ -15,5 +15,13 @@
         -[ ]Estilizar Botão
         -[ ]Criar Lógica do Botão
 -[x] Importar Fonte do projeto  
-    -[x] Criação da segunda Página View      
+    -[x] Criação da Página Destination   
         -[x] Importar header segunda page
+        -[x] Criação do Titulo da Pagina
+            - [ ] Estilização do Título da Página
+        -[x] Criação do Componente destination da Página    
+            -[ ] Estruturar toda o componente
+            -[ ] Estilizar o componente
+            -[ ] Criar Lógica de troca das imagens
+            -[ ] Criar Lógica das trocas de Estilos
+            -[ ] Deixar Pronto a interação do Usuário
