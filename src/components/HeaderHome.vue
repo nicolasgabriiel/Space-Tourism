@@ -3,12 +3,13 @@
         <div><img src="../assets/shared/logo.svg" alt=""></div>
         <div class="linha"></div>
         <nav class="nav-header">
-        
-            <button class="botoes-header" :class="{active: Home}" @click="mudartela('home')">
+            <router-link to="/">
+                <button class="botoes-header" :class="{active: Home}" @click="mudartela('home')">
                 <p class="descricao-header">
                     <strong>01</strong>Home
                 </p>
             </button>
+            </router-link>
             <router-link to="/destination">
                 <button class="botoes-header" :class="{active: Destination}" @click="mudartela('destination')" >
                     <p class="descricao-header" >
@@ -37,9 +38,9 @@ export default defineComponent({
     name: 'HeaderHome',
     data(){
         return{
-            Home: true,
+            Home: false,
             Destination: false,
-            Crew: false,
+            Crew: true,
             Technology: false
         }
     },
@@ -74,8 +75,10 @@ export default defineComponent({
             this.Technology = true;
 
           }
-        }
-    }
+        },
+    
+    },
+
 
 })
 </script>

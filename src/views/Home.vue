@@ -1,10 +1,12 @@
 <template>
   <section class="background">
-    <HeaderHome/>
+    <HeaderHome  />
     <div class="container">
       <TextHome/>
       <div class="fundo_botao">
-        <button class="explore">Explore</button>
+        <router-link to="/destination">
+          <button class="explore" >Explore</button>
+          </router-link>
       </div>
     </div>
   </section>
@@ -21,7 +23,8 @@ export default defineComponent({
   components:{
     HeaderHome,
     TextHome
-}
+},
+
 });
 </script>
 
