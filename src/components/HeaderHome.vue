@@ -4,25 +4,25 @@
         <div class="linha"></div>
         <nav class="nav-header">
             <router-link to="/">
-                <button class="botoes-header" :class="{active: Home}" @click="mudartela('home')">
+                <button class="botoes-header" :class="{active: Home}" >
                 <p class="descricao-header">
                     <strong>01</strong>Home
                 </p>
             </button>
             </router-link>
             <router-link to="/destination">
-                <button class="botoes-header" :class="{active: Destination}" @click="mudartela('destination')" >
+                <button class="botoes-header" :class="{active: Destination}"  >
                     <p class="descricao-header" >
                         <strong>02</strong>Destination
                     </p>
                 </button>
             </router-link>
-            <button class="botoes-header" :class="{active: Crew} " @click="mudartela('crew')">
+            <button class="botoes-header" :class="{active: Crew}" >
                 <p class="descricao-header" >
                     <strong>03</strong>Crew
                 </p>
             </button>
-            <button class="botoes-header" :class="{active: Technology}" @click="mudartela('technology')">
+            <button class="botoes-header" :class="{active: Technology}" >
                 <p class="descricao-header" >
                     <strong>03</strong>Technology
                 </p>

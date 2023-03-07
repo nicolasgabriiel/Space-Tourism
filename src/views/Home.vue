@@ -64,7 +64,7 @@ margin: 88px  0 0 88px;
   border-radius: 225px;
   background-color: rgba(255, 255, 255, 0);
   margin: 200px 200px 0 0;
-  transition: .5s;
+  transition: .5  s;
 }
 .fundo_botao:hover{
 background-color: rgba(255, 255, 255, 0.2);
