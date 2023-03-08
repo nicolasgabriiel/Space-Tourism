@@ -26,3 +26,5 @@
             -[ ] Criar Lógica das trocas de Estilos
             -[ ] Deixar Pronto a interação do Usuário
 -[ ]Criar interação por props entre o header
+
+
