@@ -17,11 +17,13 @@
                     </p>
                 </button>
             </router-link>
+            <router-link to="/crew">
             <button class="botoes-header" :class="{active: Crew}" >
                 <p class="descricao-header" >
                     <strong>03</strong>Crew
                 </p>
             </button>
+        </router-link>
             <button class="botoes-header" :class="{active: Technology}" >
                 <p class="descricao-header" >
                     <strong>03</strong>Technology
