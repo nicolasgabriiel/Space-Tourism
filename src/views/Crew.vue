@@ -23,7 +23,7 @@ export default defineComponent({
 .background{
   width: 100%;
   height: 100vh;
-  background-image: url(../assets/destination/background-destination-desktop.jpg);
+  background-image: url(../assets/crew/background-crew-desktop.jpg);
   background-size: cover;
 }
 </style>
