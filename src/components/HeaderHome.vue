@@ -30,7 +30,6 @@
                 </p>
             </button>
         </nav>
-        <p class="aa">{{ Destination }}</p>
     </header>
 </template>
 
@@ -52,7 +51,15 @@ export default defineComponent({
         Destination:{
             type: Boolean,
             default: false
-        }
+        },
+        Crew:{
+            type: Boolean,
+            default: false
+        },
+        Technology:{
+            type: Boolean,
+            default: false
+        },
     }
 
 

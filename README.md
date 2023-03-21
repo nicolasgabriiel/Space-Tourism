@@ -5,15 +5,16 @@
     -[x] Criar Componente HEADER HOME
         -[x]Estruturar Componente
         -[x]Estilizar Componente
-        -[ ]Criar Lógica do componente
-        -[ ]Criar Lógica de estilos
-        -[ ]Resolver problema de posicionamento
+        -[x]Criar Lógica do componente
+        -[x]Criar Lógica de estilos
+        -[ ]Resolver problema de posicionamento do header
     -[x] Criar Componente HOME TEXT
         -[x]Estruturar Componente
         -[x]Estilizar Componente
     -[x] Criar Botão EXPLORE
-        -[ ]Estilizar Botão
-        -[ ]Criar Lógica do Botão
+        -[x]Estilizar Botão
+        -[x]Criar Lógica do Botão
+        -[ ]Resolver posicionamento do botão
 -[x] Importar Fonte do projeto  
     -[x] Criação da Página Destination   
         -[x] Importar header segunda page
@@ -25,6 +26,6 @@
             -[ ] Criar Lógica de troca das imagens
             -[ ] Criar Lógica das trocas de Estilos
             -[ ] Deixar Pronto a interação do Usuário
--[ ]Criar interação por props entre o header
+-[x]Criar interação por props entre o header
 
 

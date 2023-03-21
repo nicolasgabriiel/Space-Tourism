@@ -1,6 +1,6 @@
 <template>
     <section class="background">
-        <HeaderHome/>
+        <HeaderHome :Crew="Crew"/>
         <h1><span>01</span> pick your crew</h1>
 
     </section>
@@ -15,7 +15,13 @@ export default defineComponent({
     name: 'Destination-Page',
     components:{
         HeaderHome,
-    }
+    },
+    data(){
+        return{
+            Crew: true
+        }
+    },
+
 })
 </script>
 
