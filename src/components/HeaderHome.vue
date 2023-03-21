@@ -105,7 +105,7 @@ header {
     background: none;
     border: none;
     margin-right: 70px;
-    padding-bottom: 68px;
+    padding-bottom: 33px;
     cursor: pointer;
 
 }
@@ -117,6 +117,7 @@ strong{
     margin-right: 20px;
 }
 .descricao-header{
+    margin-top: 35px;
     color: white;
     font-size: 19px;
     text-transform: uppercase;

@@ -7,7 +7,7 @@
         -[x]Estilizar Componente
         -[x]Criar Lógica do componente
         -[x]Criar Lógica de estilos
-        -[ ]Resolver problema de posicionamento do header
+        -[x]Resolver problema de posicionamento do header
     -[x] Criar Componente HOME TEXT
         -[x]Estruturar Componente
         -[x]Estilizar Componente
