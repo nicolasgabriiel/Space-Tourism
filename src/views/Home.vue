@@ -1,6 +1,6 @@
 <template>
   <section class="background">
-    <HeaderHome />
+    <HeaderHome :Home="Home"/>
     <div class="container">
       <TextHome />
       <div class="centralizar">
@@ -28,7 +28,8 @@ export default defineComponent({
   data() {
     return {
       fundo: false,
-      expandir: false
+      expandir: false,
+      Home: true
     }
   },
   methods:{

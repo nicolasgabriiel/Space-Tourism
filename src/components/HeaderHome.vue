@@ -30,6 +30,7 @@
                 </p>
             </button>
         </nav>
+        <p class="aa">{{ Destination }}</p>
     </header>
 </template>
 
@@ -40,52 +41,28 @@ export default defineComponent({
     name: 'HeaderHome',
     data(){
         return{
-            Home: false,
-            Destination: false,
-            Crew: true,
-            Technology: false
+           
         }
     },
-    methods:{
-        mudartela(evento:string){
-          if(evento === "home"){
-            
-            this.Destination = false;
-            this.Crew = false;
-            this.Technology = false;
-            this.Home = true;
-
-          }else if(evento === "destination"){
-            
-            this.Crew = false;
-            this.Technology = false;
-            this.Home = false;
-            this.Destination = true;
-
-          }else if(evento === 'crew'){
-           
-            this.Technology = false;
-            this.Home = false;
-            this.Destination = false;
-            this.Crew = true;
-
-          }else{
-            
-            this.Home = false;
-            this.Destination = false;
-            this.Crew = false;
-            this.Technology = true;
-
-          }
+    props:{
+        Home:{
+            type: Boolean,
+            default: false
         },
-    
-    },
+        Destination:{
+            type: Boolean,
+            default: false
+        }
+    }
 
 
 })
 </script>
 
 <style scoped>
+.aa{
+    font-size: 90px;
+}
 header {
     display: flex;
     width: 95%;

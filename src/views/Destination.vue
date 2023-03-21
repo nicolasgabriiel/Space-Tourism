@@ -1,6 +1,6 @@
 <template>
     <section class="background">
-        <HeaderHome/>
+        <HeaderHome :Destination="Destination"/>
         <h1><span>01</span> pick your destination</h1>
         <DestinationComponent/>
     </section>
@@ -16,8 +16,12 @@ export default defineComponent({
     components:{
         HeaderHome,
         DestinationComponent
+    },
+    data() {
+    return {
+        Destination: true
     }
-
+    },
 })
 </script>
 
