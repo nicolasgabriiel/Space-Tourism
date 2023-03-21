@@ -1,16 +1,17 @@
 <template>
   <section class="background">
-    <HeaderHome  />
+    <HeaderHome />
     <div class="container">
-      <TextHome/>
-      <div class="fundo_botao" >
-        <router-link to="/destination">
-          <button class="explore" >Explore</button>
+      <TextHome />
+      <div class="centralizar">
+        <div class="fundo_botao" v-bind:class="{'ampliado': expandir}">
+          <router-link to="/destination">
+            <button class="explore" v-on:mouseover="expandir = true" v-on:mouseout="expandir = false">Explore</button>
           </router-link>
+        </div>
       </div>
     </div>
   </section>
-  
 </template>
 
 <script lang="ts">
@@ -20,31 +21,42 @@ import TextHome from '@/components/TextHome.vue';
 
 export default defineComponent({
   name: 'HomeView',
-  components:{
+  components: {
     HeaderHome,
     TextHome
-},
-data(){
-  return{
-    fundo: false
+  },
+  data() {
+    return {
+      fundo: false,
+      expandir: false
+    }
+  },
+  methods:{
+    onHover(){
+      this.expandir = true
+    }
   }
-}
 
 });
 </script>
 
 <style scoped>
-.background{
+.background {
   width: 100%;
   height: 100vh;
   background-image: url(../assets/home/background-home-desktop.jpg);
   background-size: cover;
 }
-.container{
+
+.container {
   display: flex;
   justify-content: space-between;
 }
-.explore{
+.centralizar{
+  display: flex;
+  justify-content: center;
+}
+.explore {
   width: 274px;
   height: 274px;
   border-radius: 137px;
@@ -54,24 +66,32 @@ data(){
   letter-spacing: 2px;
   text-transform: uppercase;
   color: black;
-  font-family:'Barlow Condensed', sans-serif;
-margin: 88px  0 0 88px;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: relative;
 
 }
-.fundo_botao{
+
+.fundo_botao {
+  /* width: 450px;
+  height: 450px; */
+  width: 274px;
+  height: 274px;
+  border-radius: 225px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 250px  200px 0 0;
+  transition: .5 s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 1s ease, height 1s ease;
+}
+.fundo_botao.ampliado {
   width: 450px;
   height: 450px;
-  border-radius: 225px;
-  background-color: rgba(255, 255, 255, 0);
-  margin: 200px 200px 0 0;
-  transition: .5  s;
-}
-.fundo_botao:hover{
-background-color: rgba(255, 255, 255, 0.2);
-}
-.fundo_botao:hover .explore{
-  cursor: pointer;
 }
 
+.fundo_botao:hover .explore {
+  cursor: pointer;
+}
 </style>
 
