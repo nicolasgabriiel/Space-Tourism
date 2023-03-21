@@ -14,7 +14,7 @@
     -[x] Criar Botão EXPLORE
         -[x]Estilizar Botão
         -[x]Criar Lógica do Botão
-        -[ ]Resolver posicionamento do botão
+        -[x]Resolver posicionamento do botão
 -[x] Importar Fonte do projeto  
     -[x] Criação da Página Destination   
         -[x] Importar header segunda page

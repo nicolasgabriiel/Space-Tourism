@@ -71,12 +71,8 @@ export default defineComponent({
   position: relative;
 
 }
-
 .fundo_botao {
-  /* width: 450px;
-  height: 450px; */
-  width: 274px;
-  height: 274px;
+  position: relative;
   border-radius: 225px;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 250px  200px 0 0;
@@ -84,11 +80,14 @@ export default defineComponent({
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: width 1s ease, height 1s ease;
+  transition: width 1s ease, height 1s ease, margin 1s ease;
+  width: 274px;
+  height: 274px;
 }
 .fundo_botao.ampliado {
   width: 450px;
   height: 450px;
+  margin: 162px  112px 0 0;
 }
 
 .fundo_botao:hover .explore {
