@@ -19,7 +19,7 @@
     -[x] Criação da Página Destination   
         -[x] Importar header segunda page
         -[x] Criação do Titulo da Pagina
-            - [ ] Estilização do Título da Página
+            - [x] Estilização do Título da Página
         -[x] Criação do Componente destination da Página    
             -[ ] Estruturar toda o componente
             -[ ] Estilizar o componente

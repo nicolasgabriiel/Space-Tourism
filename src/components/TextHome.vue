@@ -18,23 +18,24 @@ main{
 }
 main h2{
     color: #D0D6F9;
-    font-size: 28px;
+    font-size: 30px;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
 main h1{
     color: #ffffff;
-    font-size: 180px;
+    font-size: 140px;
     letter-spacing: 10px;
-    margin: 25px 0 50px 0;
+    margin: 40px 0 40px 0;
     text-transform: uppercase;
+    font-family: 'Bellefair', serif;
 }
 main h3{
-    font-size: 20px;
+    font-size: 18px;
     color: #D0D6F9;
     line-height:32px;
-    letter-spacing: 3px;
-    width: 80%;
+    letter-spacing: 2px;
+    width: 82%;
 }
 </style>
 
