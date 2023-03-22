@@ -34,7 +34,7 @@
     -[x] Criação do Componente DestinationControler da Página    
             -[x] Estruturar o Header do Componente
             -[x] Estilizar o Header dO Componente
-            -[ ] Criar Lógica de troca de Estilo
+            -[x] Criar Lógica de troca de Estilo
             -[ ] Criar a Estrutura onde os outros componentes ficarão
                 -[ ]Criar componente DestinationImage
                     -[ ] Criar arquivo TS pra armazenar os valores

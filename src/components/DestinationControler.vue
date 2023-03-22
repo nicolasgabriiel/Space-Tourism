@@ -5,17 +5,17 @@
       <div>
         <header>
           <nav class="navegacao-controle">
-            <button>
-              <h2 class="title-button">moon</h2>
+            <button @click="trocarEstacao('moon')">
+              <h2 class="title-button" :class="{ active: moon }">moon</h2>
             </button>
-            <button>
-              <h2 class="title-button">mars</h2>
+            <button @click="trocarEstacao('mars')">
+              <h2 class="title-button" :class="{ active: mars }">mars</h2>
             </button>
-            <button>
-              <h2 class="title-button">europa</h2>
+            <button @click="trocarEstacao('europa')">
+              <h2 class="title-button" :class="{ active: europa }">europa</h2>
             </button>
-            <button>
-              <h2 class="title-button">titan</h2>
+            <button @click="trocarEstacao('titan')">
+              <h2 class="title-button" :class="{ active: titan }">titan</h2>
             </button>
           </nav>
         </header>
@@ -23,13 +23,6 @@
     </section>
   </div>
 </template>
-<script lang="ts">
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  name: "Destination-Component",
-});
-</script>
 
 <style scoped>
 .container-data {
@@ -62,4 +55,46 @@ export default defineComponent({
   padding-bottom: 10px;
   font-weight: 600;
 }
+.active {
+  color: #ffffff;
+  cursor: pointer;
+  border-bottom: 4px solid white;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
 </style>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({
+  name: "Destination-Component",
+  data() {
+    return {
+      moon: true,
+      mars: false,
+      europa: false,
+      titan: false,
+    };
+  },
+  methods: {
+    trocarEstacao(estacao: string) {
+      this.moon = false;
+      this.mars = false;
+      this.europa = false;
+      this.titan = false;
+
+      if (estacao == "moon") {
+        this.moon = true;
+      } else if (estacao == "mars") {
+        this.mars = true;
+      } else if (estacao == "europa") {
+        this.europa = true;
+      } else {
+        this.titan = true;
+      }
+      console.log(this.moon, this.mars, this.europa, this.titan);
+    },
+  },
+});
+</script>
