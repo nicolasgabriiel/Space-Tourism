@@ -10,7 +10,7 @@
             </div>
             
             <div>
-                <DestinationControler class="hide"/>
+                <DestinationControler/>
             </div>
         </main>
     </section>

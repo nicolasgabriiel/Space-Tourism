@@ -32,7 +32,7 @@
     -[x]Estruturar Titulo da Página
         -[x]Estilizar o título da Página     
     -[x] Criação do Componente DestinationControler da Página    
-            -[ ] Estruturar o Header do Componente
+            -[x] Estruturar o Header do Componente
             -[ ] Estilizar o Header dO Componente
             -[ ] Criar Lógica de troca de Estilo
             -[ ] Criar a Estrutura onde os outros componentes ficarão
