@@ -2,20 +2,20 @@
     <section class="background">
         <HeaderHome :Destination="Destination"/>
         <h1><span>01</span> pick your destination</h1>
-        <DestinationComponent/>
+        <DestinationControler/>
     </section>
   
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue';
 import HeaderHome from '@/components/HeaderHome.vue';
-import DestinationComponent from '@/components/DestinationComponent.vue';
+import DestinationControler from '@/components/DestinationControler.vue';
 
 export default defineComponent({
     name: 'Destination-Page',
     components:{
         HeaderHome,
-        DestinationComponent
+        DestinationControler
     },
     data() {
     return {
