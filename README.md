@@ -29,8 +29,8 @@
     -[x] Adicionar Background pra página
     -[x] Adicionando o HeaderComponent
         -[x] Criando Lógica da props do estilo
-    -[ ]Estruturar Titulo da Página
-        -[ ]Estilizar o título da Página     
+    -[x]Estruturar Titulo da Página
+        -[x]Estilizar o título da Página     
     -[x] Criação do Componente DestinationControler da Página    
             -[ ] Estruturar o Header do Componente
             -[ ] Estilizar o Header dO Componente
