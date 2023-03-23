@@ -1,6 +1,8 @@
 <template>
   <div class="container-data">
-    <section class="esquerda"></section>
+    <section class="esquerda">
+      <!--DestinationImage-->
+    </section>
     <section class="direita">
       <div>
         <header>
@@ -49,11 +51,9 @@
   margin: 50px 30px 0 0;
 }
 .title-button:hover {
-  color: #ffffff;
   cursor: pointer;
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid #979797;
   padding-bottom: 10px;
-  font-weight: 600;
 }
 .active {
   color: #ffffff;
