@@ -1,7 +1,7 @@
 <template>
   <div class="container-data">
     <section class="esquerda">
-      <!--DestinationImage-->
+      <DestinationImage />
     </section>
     <section class="direita">
       <div>
@@ -21,6 +21,9 @@
             </button>
           </nav>
         </header>
+      </div>
+      <div>
+        <!--DestinationData-->
       </div>
     </section>
   </div>
@@ -66,9 +69,13 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import DestinationImage from "./DestinationImage.vue";
 
 export default defineComponent({
   name: "Destination-Component",
+  components: {
+    DestinationImage,
+  },
   data() {
     return {
       moon: true,

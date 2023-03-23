@@ -35,8 +35,8 @@
             -[x] Estruturar o Header do Componente
             -[x] Estilizar o Header dO Componente
             -[x] Criar Lógica de troca de Estilo
-            -[ ] Criar a Estrutura onde os outros componentes ficarão
-                -[ ]Criar componente DestinationImage
+            -[x] Criar a Estrutura onde os outros componentes ficarão
+                -[x]Criar componente DestinationImage
                     -[ ] Criar arquivo TS pra armazenar os valores
                     -[ ] Chamar o arquivo TS 
                     -[ ] Mudar as imagens Dinamicamente
@@ -49,3 +49,22 @@
 -[x]Criar interação por props entre o header
 
 
+
+
+
+
+
+
+
+
+
+- feat: nova funcionalidade
+- fix: correção de erro
+- chore: mudanças de configuração ou outras tarefas menores
+- docs: mudanças apenas na documentação
+- style: mudanças que não afetam o significado do código (espaços em branco, formatação, ponto-e-vírgula, etc)
+- refactor: mudanças no código que não corrigem erros nem adicionam novas funcionalidades
+- perf: melhorias na performance
+- test: adição ou correção de testes
+- build: mudanças que afetam o sistema de build ou dependências externas
+- ci: mudanças nos arquivos e configurações do CI/CD.
