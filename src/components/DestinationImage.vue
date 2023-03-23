@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img />
+    <img src="../assets/destination/image-europa.png" />
   </div>
 </template>
 

@@ -70,6 +70,7 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import DestinationImage from "./DestinationImage.vue";
+import { linkImage } from "@/assets/DestinationData";
 
 export default defineComponent({
   name: "Destination-Component",
@@ -90,6 +91,8 @@ export default defineComponent({
       this.mars = false;
       this.europa = false;
       this.titan = false;
+
+      console.log(linkImage);
 
       if (estacao == "moon") {
         this.moon = true;

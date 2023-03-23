@@ -37,7 +37,7 @@
             -[x] Criar Lógica de troca de Estilo
             -[x] Criar a Estrutura onde os outros componentes ficarão
                 -[x]Criar componente DestinationImage
-                    -[ ] Criar arquivo TS pra armazenar os valores
+                    -[X] Criar arquivo TS pra armazenar os valores
                     -[ ] Chamar o arquivo TS 
                     -[ ] Mudar as imagens Dinamicamente
                 -[ ]Criar componente DestinationData
