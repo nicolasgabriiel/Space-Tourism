@@ -1,7 +1,6 @@
 <template>
   <div>
-    <img :src="linkImages[0]" />
-    <img src="../assets/destination/image-europa.png" />
+    <img :src="link[3]" />
   </div>
 </template>
 
@@ -14,11 +13,8 @@ export default defineComponent({
   name: "Destination-Image",
   data() {
     return {
-      linkImages: linkImage as string[],
+      link: linkImage as string[],
     };
-  },
-  mounted() {
-    console.log(this.linkImages[2]);
   },
 });
 </script>
