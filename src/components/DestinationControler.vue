@@ -1,7 +1,7 @@
 <template>
   <div class="container-data">
     <section class="esquerda">
-      <DestinationImage />
+      <DestinationImage :moon="moon" :mars="mars" :europa="europa" :titan="titan" />
     </section>
     <section class="direita">
       <div>
