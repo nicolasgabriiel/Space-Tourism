@@ -10,9 +10,6 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 
-// import { linkImage } from "@/assets/DestinationData";
-// link: linkImage as string[],
-
 export default defineComponent({
   name: "Destination-Image",
   data() {

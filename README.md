@@ -42,7 +42,7 @@
                     -[x] Mudar as imagens Dinamicamente
                 -[x]Criar componente DestinationData
                     -[x] Armazenar os valores no arquivo TS e chama-lo no componente
-                    -[ ] Estruturar o Local dos dados
+                    -[x] Estruturar o Local dos dados
                     -[ ] Trocar os dados dinamicamente
                     -[ ] Estilizar os dados
             -[ ] Corrigir problemas com espaçamento
