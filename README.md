@@ -40,7 +40,7 @@
                     -[X] Criar arquivo TS pra armazenar os valores
                     -[x] Chamar o arquivo TS 
                     -[x] Mudar as imagens Dinamicamente
-                -[ ]Criar componente DestinationData
+                -[x]Criar componente DestinationData
                     -[ ] Chamar o arquivo TS no projeto
                     -[ ] Estruturar o Local dos dados
                     -[ ] Trocar os dados dinamicamente

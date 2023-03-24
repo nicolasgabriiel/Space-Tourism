@@ -23,7 +23,7 @@
         </header>
       </div>
       <div>
-        <!--DestinationData-->
+        <DestinationData />
       </div>
     </section>
   </div>
@@ -70,11 +70,13 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import DestinationImage from "./DestinationImage.vue";
+import DestinationData from "./DestinationData.vue";
 
 export default defineComponent({
   name: "Destination-Component",
   components: {
     DestinationImage,
+    DestinationData,
   },
   data() {
     return {
