@@ -43,7 +43,7 @@
                 -[x]Criar componente DestinationData
                     -[x] Armazenar os valores no arquivo TS e chama-lo no componente
                     -[x] Estruturar o Local dos dados
-                    -[ ] Trocar os dados dinamicamente
+                    -[x] Trocar os dados dinamicamente
                     -[ ] Estilizar os dados
             -[ ] Corrigir problemas com espaçamento
 -[x]Criar interação por props entre o header

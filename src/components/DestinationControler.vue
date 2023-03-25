@@ -23,7 +23,13 @@
         </header>
       </div>
       <div>
-        <DestinationData />
+        <DestinationData
+          :moon="moon"
+          :mars="mars"
+          :europa="europa"
+          :titan="titan"
+          :indice="indice"
+        />
       </div>
     </section>
   </div>
@@ -33,13 +39,16 @@
 .container-data {
   display: flex;
 }
+
 .esquerda {
   width: 50%;
   height: 20px;
 }
+
 .direita {
   width: 50%;
 }
+
 .navegacao-controle button {
   background-color: transparent;
   border: 0;
@@ -53,11 +62,13 @@
   text-transform: uppercase;
   margin: 50px 30px 0 0;
 }
+
 .title-button:hover {
   cursor: pointer;
   border-bottom: 4px solid #979797;
   padding-bottom: 10px;
 }
+
 .active {
   color: #ffffff;
   cursor: pointer;
@@ -84,6 +95,7 @@ export default defineComponent({
       mars: false,
       europa: false,
       titan: false,
+      indice: 0,
     };
   },
   methods: {
@@ -95,12 +107,16 @@ export default defineComponent({
 
       if (estacao == "moon") {
         this.moon = true;
+        this.indice = 0;
       } else if (estacao == "mars") {
         this.mars = true;
+        this.indice = 1;
       } else if (estacao == "europa") {
         this.europa = true;
+        this.indice = 2;
       } else {
         this.titan = true;
+        this.indice = 3;
       }
       console.log(this.moon, this.mars, this.europa, this.titan);
     },
