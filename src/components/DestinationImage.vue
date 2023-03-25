@@ -12,9 +12,7 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "Destination-Image",
-  data() {
-    return {};
-  },
+
   props: {
     moon: {
       type: Boolean,

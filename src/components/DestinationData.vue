@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-data">
     <h1 class="title">{{ title[indice] }}</h1>
     <p class="description">{{ description[indice] }}</p>
     <div class="linha"></div>
@@ -15,6 +15,60 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.container-data {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.title {
+  font-family: "Bellefair", serif;
+  font-size: 100px;
+  line-height: 115px;
+  color: white;
+  text-transform: uppercase;
+  margin: 30px 0 20px 0;
+}
+.description {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 32px;
+  color: #d0d6f9;
+  letter-spacing: 1px;
+}
+.linha {
+  width: 100%;
+  height: 1px;
+  background-color: #383b4b;
+  margin: 55px 0 30px 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.right h3,
+.left h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 32px;
+  color: #d0d6f9;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.right h2,
+.left h2 {
+  font-family: "Bellefair", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+</style>
 
 <script lang="ts">
 import { defineComponent } from "vue";
@@ -53,10 +107,3 @@ export default defineComponent({
   },
 });
 </script>
-
-<style scoped></style>
-
-// if (this.moon == true) { // this.indice = 0; // console.log(this.indice); // } else if
-(this.mars == true) { // this.indice = 1; // console.log(this.indice); // } else if
-(this.europa == true) { // this.indice = 2; // console.log(this.indice); // } else { //
-this.indice = 3; // console.log(this.indice); // }
