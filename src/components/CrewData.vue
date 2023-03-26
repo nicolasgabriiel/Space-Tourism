@@ -55,7 +55,7 @@ export default defineComponent({
   letter-spacing: 2px;
   font-weight: 200;
   margin-top: 50px;
-  width: 48%;
+  width: 59%;
   min-height: 200px;
 }
 </style>

@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="rigth">
-        <CrewImage />
+        <CrewImage :controler="controler" />
       </div>
     </div>
   </section>
@@ -113,7 +113,7 @@ export default defineComponent({
   display: flex;
 }
 .left {
-  width: 50%;
+  width: 40%;
   margin-left: 250px;
 }
 .right {

@@ -64,10 +64,10 @@
             -[x] Estruturar o Local dos dados
             -[x] Trocar os dados dinamicamente
             -[x] Estilizar os dados
-         -[ ]Criar componente CrewImage
-            -[ ] Chamar as propriedades
-            -[ ] Mudar as imagens Dinamicamente
-            -[ ] Estilizar Posicionamento    
+         -[x]Criar componente CrewImage
+            -[x] Chamar as propriedades
+            -[x] Mudar as imagens Dinamicamente
+            -[x] Estilizar Posicionamento    
 
 
 
