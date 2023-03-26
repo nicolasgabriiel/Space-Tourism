@@ -63,7 +63,7 @@
             -[x] Armazenar os valores em um arquivo TS e chama-lo no componente
             -[x] Estruturar o Local dos dados
             -[x] Trocar os dados dinamicamente
-            -[ ] Estilizar os dados
+            -[x] Estilizar os dados
          -[ ]Criar componente CrewImage
             -[ ] Chamar as propriedades
             -[ ] Mudar as imagens Dinamicamente

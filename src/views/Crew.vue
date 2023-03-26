@@ -119,6 +119,7 @@ export default defineComponent({
 }
 .controler-crew {
   display: flex;
+  margin: 0 0 0 10px;
 }
 
 .controler-crew .button {
@@ -128,7 +129,7 @@ export default defineComponent({
   opacity: 0.17;
   border: 0;
   border-radius: 7.5px;
-  margin: 50px 15px 0 0;
+  margin: 60px 15px 0 0;
 }
 
 .controler-crew .button:hover {

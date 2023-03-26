@@ -27,4 +27,35 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.subtitle {
+  font-family: "Bellefair";
+  font-weight: 100;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.5;
+  margin: 120px 0 30px 0;
+  letter-spacing: 1px;
+}
+.title {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.description {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+  letter-spacing: 2px;
+  font-weight: 200;
+  margin-top: 50px;
+  width: 48%;
+  min-height: 200px;
+}
+</style>
