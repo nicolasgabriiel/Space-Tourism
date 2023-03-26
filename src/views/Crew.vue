@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="rigth">
-        <!--CrewImage-->
+        <CrewImage />
       </div>
     </div>
   </section>
@@ -41,12 +41,14 @@
 import { defineComponent } from "vue";
 import HeaderHome from "@/components/HeaderHome.vue";
 import CrewData from "@/components/CrewData.vue";
+import CrewImage from "@/components/CrewImage.vue";
 
 export default defineComponent({
   name: "Destination-Page",
   components: {
     HeaderHome,
     CrewData,
+    CrewImage,
   },
   data() {
     return {
