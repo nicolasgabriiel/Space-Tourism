@@ -9,10 +9,26 @@
       <div class="left">
         <!--CrewData-->
         <div class="controler-crew">
-          <button class="button"></button>
-          <button class="button"></button>
-          <button class="button"></button>
-          <button class="button"></button>
+          <button
+            class="button"
+            :class="{ active: controler[0] }"
+            @click="trocarTema(0)"
+          ></button>
+          <button
+            class="button"
+            :class="{ active: controler[1] }"
+            @click="trocarTema(1)"
+          ></button>
+          <button
+            class="button"
+            :class="{ active: controler[2] }"
+            @click="trocarTema(2)"
+          ></button>
+          <button
+            class="button"
+            :class="{ active: controler[3] }"
+            @click="trocarTema(3)"
+          ></button>
         </div>
       </div>
       <div class="rigth">
@@ -33,7 +49,27 @@ export default defineComponent({
   data() {
     return {
       Crew: true,
+      controler: [true, false, false, false],
+      indice: 0,
     };
+  },
+  methods: {
+    trocarTema(number: number) {
+      this.controler = [false, false, false, false];
+      if (number == 0) {
+        this.controler[0] = true;
+        this.indice = 0;
+      } else if (number == 1) {
+        this.controler[1] = true;
+        this.indice = 1;
+      } else if (number == 2) {
+        this.controler[2] = true;
+        this.indice = 2;
+      } else {
+        this.controler[3] = true;
+        this.indice = 3;
+      }
+    },
   },
 });
 </script>
@@ -42,15 +78,17 @@ export default defineComponent({
 .background {
   width: 100%;
   height: 100vh;
-  background-image: url(../assets/crew/background-crew-desktop.jpg);
+  background-image: url(../assets/img/crew/background-crew-desktop.jpg);
   background-size: cover;
 }
+
 .title-container {
   display: flex;
   flex-direction: row;
   margin: 100px 0 0 250px;
   font-family: "Barlow Condensed", sans-serif;
 }
+
 .title1 {
   font-size: 30px;
   color: rgba(255, 255, 255, 0.25);
@@ -59,6 +97,7 @@ export default defineComponent({
   letter-spacing: 5px;
   margin-right: 20px;
 }
+
 .title2 {
   font-size: 30px;
   color: white;
@@ -66,12 +105,15 @@ export default defineComponent({
   text-transform: uppercase;
   letter-spacing: 5px;
 }
+
 .left {
   margin-left: 250px;
 }
+
 .controler-crew {
   display: flex;
 }
+
 .controler-crew .button {
   width: 15px;
   height: 15px;
@@ -81,9 +123,15 @@ export default defineComponent({
   border-radius: 7.5px;
   margin: 50px 15px 0 0;
 }
+
 .controler-crew .button:hover {
   cursor: pointer;
   background: #ffffff;
   opacity: 0.5;
+}
+
+.active {
+  background: #ffffff !important;
+  opacity: 1 !important;
 }
 </style>

@@ -58,7 +58,7 @@
     -[x]Estilizar o título da Página     
     -[x] Estruturar a parte de controle página
     -[x] Estilizar a parte de controle da página
-    -[ ] Criar Lógica de troca de Estilo
+    -[x] Criar Lógica de troca de Estilo
         -[ ]Criar componente CrewImage
             -[ ] Chamar as propriedades
             -[ ] Mudar as imagens Dinamicamente
