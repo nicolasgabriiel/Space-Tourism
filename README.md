@@ -54,8 +54,8 @@
 -[x] Criar Router Page Destination    
     -[x] Adicionar Background pra página
     -[x] Adicionando o HeaderComponent
-    -[ ]Estruturar a Página
-    -[ ]Estilizar o título da Página     
+    -[x]Estruturar a Página
+    -[x]Estilizar o título da Página     
     -[ ] Estruturar a parte de controle página
     -[ ] Estilizar a parte de controle da página
     -[ ] Criar Lógica de troca de Estilo
