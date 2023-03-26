@@ -72,7 +72,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { title, description, kms, years } from "../assets/DestinationData";
+import { title, description, kms, years } from "../assets/ts/DestinationData";
 export default defineComponent({
   name: "Destination-Data",
   data() {

@@ -22,6 +22,7 @@
         -[x] Importar header segunda page
         -[x] Criação do Titulo da Pagina
             - [x] Estilização do Título da Página
+-[x]Criar interação por props entre o header
 
 -> PAGINA 2          
 
@@ -45,8 +46,30 @@
                     -[x] Estruturar o Local dos dados
                     -[x] Trocar os dados dinamicamente
                     -[ ] Estilizar os dados
-            -[ ] Corrigir problemas com espaçamento
--[x]Criar interação por props entre o header
+            -[x] Corrigir problemas com espaçamento
+
+
+-> PAGINA 3     
+
+-[x] Criar Router Page Destination    
+    -[x] Adicionar Background pra página
+    -[x] Adicionando o HeaderComponent
+    -[ ]Estruturar a Página
+    -[ ]Estilizar o título da Página     
+    -[ ] Estruturar a parte de controle página
+    -[ ] Estilizar a parte de controle da página
+    -[ ] Criar Lógica de troca de Estilo
+        -[ ]Criar componente CrewImage
+            -[ ] Chamar as propriedades
+            -[ ] Mudar as imagens Dinamicamente
+            -[ ] Estilizar Posicionamento
+        -[ ]Criar componente CrewData
+            -[ ] Armazenar os valores em um arquivo TS e chama-lo no componente
+            -[ ] Estruturar o Local dos dados
+            -[ ] Trocar os dados dinamicamente
+            -[ ] Estilizar os dados
+
+
 
 
 
