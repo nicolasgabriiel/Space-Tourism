@@ -8,7 +8,12 @@
     <div class="container">
       <div class="left">
         <!--CrewData-->
-        <div class="controler-crew"></div>
+        <div class="controler-crew">
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
       </div>
       <div class="rigth">
         <!--CrewImage-->

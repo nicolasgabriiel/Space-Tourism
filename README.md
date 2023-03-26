@@ -56,7 +56,7 @@
     -[x] Adicionando o HeaderComponent
     -[x]Estruturar a Página
     -[x]Estilizar o título da Página     
-    -[ ] Estruturar a parte de controle página
+    -[x] Estruturar a parte de controle página
     -[ ] Estilizar a parte de controle da página
     -[ ] Criar Lógica de troca de Estilo
         -[ ]Criar componente CrewImage
