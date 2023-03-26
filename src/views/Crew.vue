@@ -9,10 +9,10 @@
       <div class="left">
         <!--CrewData-->
         <div class="controler-crew">
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
+          <button class="button"></button>
+          <button class="button"></button>
+          <button class="button"></button>
+          <button class="button"></button>
         </div>
       </div>
       <div class="rigth">
@@ -65,5 +65,25 @@ export default defineComponent({
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 5px;
+}
+.left {
+  margin-left: 250px;
+}
+.controler-crew {
+  display: flex;
+}
+.controler-crew .button {
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  opacity: 0.17;
+  border: 0;
+  border-radius: 7.5px;
+  margin: 50px 15px 0 0;
+}
+.controler-crew .button:hover {
+  cursor: pointer;
+  background: #ffffff;
+  opacity: 0.5;
 }
 </style>
