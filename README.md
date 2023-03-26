@@ -59,15 +59,15 @@
     -[x] Estruturar a parte de controle página
     -[x] Estilizar a parte de controle da página
     -[x] Criar Lógica de troca de Estilo
-        -[ ]Criar componente CrewImage
-            -[ ] Chamar as propriedades
-            -[ ] Mudar as imagens Dinamicamente
-            -[ ] Estilizar Posicionamento
-        -[ ]Criar componente CrewData
+        -[x] Criar componente CrewData
             -[ ] Armazenar os valores em um arquivo TS e chama-lo no componente
             -[ ] Estruturar o Local dos dados
             -[ ] Trocar os dados dinamicamente
             -[ ] Estilizar os dados
+         -[ ]Criar componente CrewImage
+            -[ ] Chamar as propriedades
+            -[ ] Mudar as imagens Dinamicamente
+            -[ ] Estilizar Posicionamento    
 
 
 

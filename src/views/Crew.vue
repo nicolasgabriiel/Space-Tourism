@@ -7,7 +7,7 @@
     </div>
     <div class="container">
       <div class="left">
-        <!--CrewData-->
+        <CrewData />
         <div class="controler-crew">
           <button
             class="button"
@@ -40,11 +40,13 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import HeaderHome from "@/components/HeaderHome.vue";
+import CrewData from "@/components/CrewData.vue";
 
 export default defineComponent({
   name: "Destination-Page",
   components: {
     HeaderHome,
+    CrewData,
   },
   data() {
     return {
