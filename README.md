@@ -61,8 +61,8 @@
     -[x] Criar Lógica de troca de Estilo
         -[x] -Criar componente CrewData
             -[x] Armazenar os valores em um arquivo TS e chama-lo no componente
-            -[ ] Estruturar o Local dos dados
-            -[ ] Trocar os dados dinamicamente
+            -[x] Estruturar o Local dos dados
+            -[x] Trocar os dados dinamicamente
             -[ ] Estilizar os dados
          -[ ]Criar componente CrewImage
             -[ ] Chamar as propriedades

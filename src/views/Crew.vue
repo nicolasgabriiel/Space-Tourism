@@ -7,7 +7,7 @@
     </div>
     <div class="container">
       <div class="left">
-        <CrewData />
+        <CrewData :indice="indice" />
         <div class="controler-crew">
           <button
             class="button"
@@ -107,11 +107,16 @@ export default defineComponent({
   text-transform: uppercase;
   letter-spacing: 5px;
 }
-
+.container {
+  display: flex;
+}
 .left {
+  width: 50%;
   margin-left: 250px;
 }
-
+.right {
+  width: 50%;
+}
 .controler-crew {
   display: flex;
 }
