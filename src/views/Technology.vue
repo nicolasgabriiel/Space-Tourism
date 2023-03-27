@@ -8,9 +8,27 @@
     <div class="container-data">
       <div class="left">
         <div class="button-controler">
-          <button class="button">1</button>
-          <button class="button">2</button>
-          <button class="button">3</button>
+          <button
+            class="button"
+            :class="{ active: ControlerData[0] }"
+            @click="trocarTela(0)"
+          >
+            1
+          </button>
+          <button
+            class="button"
+            :class="{ active: ControlerData[1] }"
+            @click="trocarTela(1)"
+          >
+            2
+          </button>
+          <button
+            class="button"
+            :class="{ active: ControlerData[2] }"
+            @click="trocarTela(2)"
+          >
+            3
+          </button>
         </div>
       </div>
       <div class="center"></div>
@@ -28,7 +46,24 @@ export default defineComponent({
   data() {
     return {
       Technology: true,
+      ControlerData: [true, false, false],
+      Indice: 0,
     };
+  },
+  methods: {
+    trocarTela(indice: number) {
+      this.ControlerData = [false, false, false];
+      if (indice == 0) {
+        this.ControlerData[0] = true;
+        this.Indice = 0;
+      } else if (indice == 1) {
+        this.ControlerData[1] = true;
+        this.Indice = 0;
+      } else {
+        this.ControlerData[2] = true;
+        this.Indice = 0;
+      }
+    },
   },
 });
 </script>
@@ -60,5 +95,34 @@ export default defineComponent({
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 5px;
+}
+.container-data {
+  display: flex;
+}
+.button-controler {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: transparent;
+  border-radius: 40px;
+  font-family: "Bellefair", serif;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button:hover {
+  border: 1px solid rgb(255, 255, 255) !important;
+}
+.active {
+  border: 1px solid rgb(255, 255, 255) !important;
+  background: white !important;
+  color: black !important;
 }
 </style>

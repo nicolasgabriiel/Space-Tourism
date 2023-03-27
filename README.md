@@ -77,8 +77,8 @@
     -[x] Adicionar Background pra página
     -[x]Estruturar a Página e estilizar título da página   
         -[x] Estruturar o Controle da página
-            -[ ] Estilizar a parte de controle da página
-            -[ ] Criar Lógica de troca de Estilo
+            -[x] Estilizar a parte de controle da página
+            -[x] Criar Lógica de troca de Estilo
         -[ ] -Criar componente TechnologyData
             -[ ] Armazenar os valores em um arquivo TS e chama-lo no componente
             -[ ] Estruturar o Local dos dados
