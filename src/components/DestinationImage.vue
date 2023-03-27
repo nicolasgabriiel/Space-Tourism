@@ -1,9 +1,9 @@
 <template>
   <div>
-    <img src="../assets/destination/image-moon.png" :class="{ hide: !moon }" />
-    <img src="../assets/destination/image-mars.png" :class="{ hide: !mars }" />
-    <img src="../assets/destination/image-europa.png" :class="{ hide: !europa }" />
-    <img src="../assets/destination/image-titan.png" :class="{ hide: !titan }" />
+    <img src="../assets/img/destination/image-moon.png" :class="{ hide: !moon }" />
+    <img src="../assets/img/destination/image-mars.png" :class="{ hide: !mars }" />
+    <img src="../assets/img/destination/image-europa.png" :class="{ hide: !europa }" />
+    <img src="../assets/img/destination/image-titan.png" :class="{ hide: !titan }" />
   </div>
 </template>
 

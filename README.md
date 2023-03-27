@@ -51,7 +51,7 @@
 
 -> PAGINA 3     
 
--[x] Criar Router Page Destination    
+-[x] Criar Router Page Crew  
     -[x] Adicionar Background pra página
     -[x] Adicionando o HeaderComponent
     -[x]Estruturar a Página
@@ -69,8 +69,25 @@
             -[x] Mudar as imagens Dinamicamente
             -[x] Estilizar Posicionamento    
 
+-> PAGINA 4
 
-
+-[ ] Criar Router Page Technology  
+    -[ ] Adicionar o Header a Página
+    -[ ] Linkar página ao header e deixar funcional
+    -[ ] Adicionar Background pra página
+    -[ ]Estruturar a Página e estilizar título da página   
+        -[ ] Estruturar o Controle da página
+            -[ ] Estilizar a parte de controle da página
+            -[ ] Criar Lógica de troca de Estilo
+        -[ ] -Criar componente TechnologyData
+            -[ ] Armazenar os valores em um arquivo TS e chama-lo no componente
+            -[ ] Estruturar o Local dos dados
+            -[ ] Trocar os dados dinamicamente
+            -[ ] Estilizar os dados
+         -[ ]Criar componente TechnologyImage
+            -[ ] Chamar as propriedades
+            -[ ] Mudar as imagens Dinamicamente
+            -[ ] Estilizar Posicionamento   
 
 
 

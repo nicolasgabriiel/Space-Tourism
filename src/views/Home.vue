@@ -1,12 +1,18 @@
 <template>
   <section class="background">
-    <HeaderHome :Home="Home"/>
+    <HeaderHome :Home="Home" />
     <div class="container">
       <TextHome />
       <div class="centralizar">
-        <div class="fundo_botao" v-bind:class="{'ampliado': expandir}">
+        <div class="fundo_botao" v-bind:class="{ ampliado: expandir }">
           <router-link to="/destination">
-            <button class="explore" v-on:mouseover="expandir = true" v-on:mouseout="expandir = false">Explore</button>
+            <button
+              class="explore"
+              v-on:mouseover="expandir = true"
+              v-on:mouseout="expandir = false"
+            >
+              Explore
+            </button>
           </router-link>
         </div>
       </div>
@@ -15,29 +21,28 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import HeaderHome from '@/components/HeaderHome.vue';
-import TextHome from '@/components/TextHome.vue';
+import { defineComponent } from "vue";
+import HeaderHome from "@/components/HeaderHome.vue";
+import TextHome from "@/components/TextHome.vue";
 
 export default defineComponent({
-  name: 'HomeView',
+  name: "HomeView",
   components: {
     HeaderHome,
-    TextHome
+    TextHome,
   },
   data() {
     return {
       fundo: false,
       expandir: false,
-      Home: true
-    }
+      Home: true,
+    };
   },
-  methods:{
-    onHover(){
-      this.expandir = true
-    }
-  }
-
+  methods: {
+    onHover() {
+      this.expandir = true;
+    },
+  },
 });
 </script>
 
@@ -45,7 +50,7 @@ export default defineComponent({
 .background {
   width: 100%;
   height: 100vh;
-  background-image: url(../assets/home/background-home-desktop.jpg);
+  background-image: url(../assets/img/home/background-home-desktop.jpg);
   background-size: cover;
 }
 
@@ -53,7 +58,7 @@ export default defineComponent({
   display: flex;
   justify-content: space-between;
 }
-.centralizar{
+.centralizar {
   display: flex;
   justify-content: center;
 }
@@ -67,16 +72,15 @@ export default defineComponent({
   letter-spacing: 2px;
   text-transform: uppercase;
   color: black;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   position: relative;
-
 }
 .fundo_botao {
   position: relative;
   border-radius: 225px;
   background-color: rgba(255, 255, 255, 0.2);
-  margin: 250px  200px 0 0;
-  transition: .5 s;
+  margin: 250px 200px 0 0;
+  transition: 0.5 s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,11 +91,10 @@ export default defineComponent({
 .fundo_botao.ampliado {
   width: 450px;
   height: 450px;
-  margin: 162px  112px 0 0;
+  margin: 162px 112px 0 0;
 }
 
 .fundo_botao:hover .explore {
   cursor: pointer;
 }
 </style>
-
