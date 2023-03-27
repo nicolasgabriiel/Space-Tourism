@@ -76,7 +76,7 @@
     -[x] Linkar página ao header e deixar funcional
     -[x] Adicionar Background pra página
     -[x]Estruturar a Página e estilizar título da página   
-        -[ ] Estruturar o Controle da+ página
+        -[x] Estruturar o Controle da página
             -[ ] Estilizar a parte de controle da página
             -[ ] Criar Lógica de troca de Estilo
         -[ ] -Criar componente TechnologyData

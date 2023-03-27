@@ -6,7 +6,13 @@
       <h1 class="title2">space launch 101</h1>
     </div>
     <div class="container-data">
-      <div class="left"></div>
+      <div class="left">
+        <div class="button-controler">
+          <button class="button">1</button>
+          <button class="button">2</button>
+          <button class="button">3</button>
+        </div>
+      </div>
       <div class="center"></div>
       <div class="rigth"></div>
     </div>
