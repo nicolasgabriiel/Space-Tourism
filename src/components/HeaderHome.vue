@@ -18,9 +18,11 @@
           <p class="descricao-header"><strong>02</strong>Crew</p>
         </button>
       </router-link>
-      <button class="botoes-header" :class="{ active: Technology }">
-        <p class="descricao-header"><strong>03</strong>Technology</p>
-      </button>
+      <router-link to="/technology">
+        <button class="botoes-header" :class="{ active: Technology }">
+          <p class="descricao-header"><strong>03</strong>Technology</p>
+        </button>
+      </router-link>
     </nav>
   </header>
 </template>
@@ -55,9 +57,6 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.aa {
-  font-size: 90px;
-}
 header {
   display: flex;
   width: 95%;
@@ -78,7 +77,7 @@ header {
   z-index: 999;
 }
 .nav-header {
-  width: 65%;
+  width: 70%;
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(40.7742px);
   height: 100%;

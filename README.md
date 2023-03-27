@@ -72,9 +72,9 @@
 -> PAGINA 4
 
 -[x] Criar Router Page Technology  
-    -[ ] Adicionar o Header a Página
-    -[ ] Linkar página ao header e deixar funcional
-    -[ ] Adicionar Background pra página
+    -[x] Adicionar o Header a Página
+    -[x] Linkar página ao header e deixar funcional
+    -[x] Adicionar Background pra página
     -[ ]Estruturar a Página e estilizar título da página   
         -[ ] Estruturar o Controle da+ página
             -[ ] Estilizar a parte de controle da página
