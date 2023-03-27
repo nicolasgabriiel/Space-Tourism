@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="background">
     <HeaderHome :Technology="Technology" />
   </section>
 </template>
@@ -18,4 +18,11 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.background {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/img/technology/background-technology-desktop.jpg);
+  background-size: cover;
+}
+</style>
