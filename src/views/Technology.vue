@@ -102,9 +102,19 @@ export default defineComponent({
 .container-data {
   display: flex;
 }
+.left {
+  width: 20%;
+}
+.center {
+  width: 40%;
+}
+.right {
+  width: 40%;
+}
 .button-controler {
   display: flex;
   flex-direction: column;
+  margin-left: 250px;
 }
 .button {
   width: 80px;
