@@ -1,5 +1,7 @@
 <template>
-  <h1>Dados Aqui!</h1>
+  <section>
+    <h2>The terminology...</h2>
+  </section>
 </template>
 
 <script lang="ts">
