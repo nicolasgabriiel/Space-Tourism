@@ -34,7 +34,7 @@ export default defineComponent({
   letter-spacing: 2.7px;
   color: #d0d6f9;
   text-transform: uppercase;
-  margin: 50px 0 20px 0;
+  margin: 0px 0 20px 0;
 }
 .title {
   font-family: "Bellefair";

@@ -34,7 +34,9 @@
       <div class="center">
         <TechnologyData :Indice="Indice" />
       </div>
-      <div class="rigth"></div>
+      <div class="rigth">
+        <TechnologyImage :ControlerData="ControlerData" />
+      </div>
     </div>
   </section>
 </template>
@@ -42,10 +44,11 @@
 <script lang="ts">
 import HeaderHome from "@/components/HeaderHome.vue";
 import TechnologyData from "@/components/TechnologyData.vue";
+import TechnologyImage from "@/components/TechnologyImage.vue";
 import { defineComponent } from "vue";
 export default defineComponent({
   name: "Technology-Page",
-  components: { HeaderHome, TechnologyData },
+  components: { HeaderHome, TechnologyData, TechnologyImage },
   data() {
     return {
       Technology: true,
@@ -101,6 +104,8 @@ export default defineComponent({
 }
 .container-data {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .left {
   width: 20%;
