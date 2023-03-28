@@ -79,7 +79,7 @@
         -[x] Estruturar o Controle da página
             -[x] Estilizar a parte de controle da página
             -[x] Criar Lógica de troca de Estilo
-        -[ ] -Criar componente TechnologyData
+        -[x] -Criar componente TechnologyData
             -[ ] Armazenar os valores em um arquivo TS e chama-lo no componente
             -[ ] Estruturar o Local dos dados
             -[ ] Trocar os dados dinamicamente

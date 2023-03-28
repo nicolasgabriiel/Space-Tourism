@@ -31,7 +31,9 @@
           </button>
         </div>
       </div>
-      <div class="center"></div>
+      <div class="center">
+        <TechnologyData />
+      </div>
       <div class="rigth"></div>
     </div>
   </section>
@@ -39,10 +41,11 @@
 
 <script lang="ts">
 import HeaderHome from "@/components/HeaderHome.vue";
+import TechnologyData from "@/components/TechnologyData.vue";
 import { defineComponent } from "vue";
 export default defineComponent({
   name: "Technology-Page",
-  components: { HeaderHome },
+  components: { HeaderHome, TechnologyData },
   data() {
     return {
       Technology: true,
