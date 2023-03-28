@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="center">
-        <TechnologyData />
+        <TechnologyData :Indice="Indice" />
       </div>
       <div class="rigth"></div>
     </div>
@@ -61,10 +61,10 @@ export default defineComponent({
         this.Indice = 0;
       } else if (indice == 1) {
         this.ControlerData[1] = true;
-        this.Indice = 0;
+        this.Indice = 1;
       } else {
         this.ControlerData[2] = true;
-        this.Indice = 0;
+        this.Indice = 2;
       }
     },
   },
