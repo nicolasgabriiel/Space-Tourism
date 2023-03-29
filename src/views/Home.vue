@@ -74,11 +74,12 @@ export default defineComponent({
   color: black;
   font-family: "Barlow Condensed", sans-serif;
   position: relative;
+  transition: 1s;
 }
 .fundo_botao {
   position: relative;
   border-radius: 225px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
   margin: 250px 200px 0 0;
   transition: 0.5 s;
   display: flex;
@@ -96,5 +97,6 @@ export default defineComponent({
 
 .fundo_botao:hover .explore {
   cursor: pointer;
+  background-color: #ededed;
 }
 </style>

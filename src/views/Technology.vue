@@ -2,7 +2,7 @@
   <section class="background">
     <HeaderHome :Technology="Technology" />
     <div class="title-container">
-      <h1 class="title">01</h1>
+      <h1 class="title">03</h1>
       <h1 class="title2">space launch 101</h1>
     </div>
     <div class="container-data">

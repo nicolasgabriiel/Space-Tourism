@@ -26,7 +26,6 @@ export default defineComponent({
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: red;
 }
 .hide {
   display: none !important;

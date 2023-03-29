@@ -1,6 +1,8 @@
 <template>
   <header>
-    <div><img src="../assets/img/shared/logo.svg" alt="" /></div>
+    <router-link to="/"
+      ><div><img src="../assets/img/shared/logo.svg" alt="" /></div
+    ></router-link>
     <div class="linha"></div>
     <nav class="nav-header">
       <router-link to="/">
