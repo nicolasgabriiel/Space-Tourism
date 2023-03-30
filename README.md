@@ -89,6 +89,16 @@
             -[x] Mudar as imagens Dinamicamente
     -[x] Estilizar Posicionamento   
 
+    -[ ] Responsivo Tablet page 1
+    -[ ] Responsivo Tablet page 2
+    -[ ] Responsivo Tablet page 3
+    -[ ] Responsivo Tablet page 4
+
+    -[ ] Responsivo Mobile page 1
+    -[ ] Responsivo Mobile page 2
+    -[ ] Responsivo Mobile page 3
+    -[ ] Responsivo Mobile page 4
+
 
 
 
