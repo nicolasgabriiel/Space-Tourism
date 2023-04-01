@@ -42,4 +42,5 @@ export default defineComponent({
 .imagem4 {
   background-image: url("../assets/img/crew/image-anousheh-ansari.png");
 }
+/* alterarbg */
 </style>

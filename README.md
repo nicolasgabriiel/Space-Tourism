@@ -90,6 +90,7 @@
     -[x] Estilizar Posicionamento   
 
     -[ ] Responsivo Tablet page 1
+    - [ ] Trocar Background
     -[ ] Responsivo Tablet page 2
     -[ ] Responsivo Tablet page 3
     -[ ] Responsivo Tablet page 4
