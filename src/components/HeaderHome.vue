@@ -114,4 +114,9 @@ strong {
 .active {
   border-bottom: 4px solid white;
 }
+
+/* RESPONSIVO */
+
+@media screen and (max-width: 800px) {
+}
 </style>
