@@ -129,7 +129,7 @@ strong {
   }
 
   .linha {
-    width: 473px;
+    width: 20%;
     height: 1px;
     background: white;
     opacity: 0.25;
@@ -146,7 +146,7 @@ strong {
     align-items: center;
   }
   .botoes-header:first-child {
-    margin-left: 100px;
+    margin-left: 5%;
   }
   .botoes-header {
     background: none;
