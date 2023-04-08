@@ -18,23 +18,10 @@ main {
 }
 main h2 {
   color: #d0d6f9;
-  font-size: 30px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
 }
 main h1 {
-  color: #ffffff;
-  font-size: 140px;
-  letter-spacing: 10px;
-  margin: 40px 0 40px 0;
-  text-transform: uppercase;
-  font-family: "Bellefair", serif;
 }
 main h3 {
-  font-size: 18px;
-  color: #d0d6f9;
-  line-height: 32px;
-  letter-spacing: 2px;
   width: 82%;
 }
 @media screen and (max-width: 800px) {
