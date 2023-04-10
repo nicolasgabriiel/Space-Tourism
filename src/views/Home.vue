@@ -49,9 +49,11 @@ export default defineComponent({
 <style scoped>
 .background {
   width: 100%;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   background-image: url(../assets/img/home/background-home-desktop.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
